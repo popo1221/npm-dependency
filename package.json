@@ -1,0 +1,17 @@
+{
+  "name": "npm-dependency",
+  "version": "0.1.0",
+  "description": "A tool for listing or copying dependencies",
+  "main": "index.js",
+  "bin": {
+    "npm-dependency": "bin/npm-dependency.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "cpr": "^2.0.0",
+    "json-format": "^0.1.2",
+    "read-package-json": "^2.0.4",
+  }
+}
