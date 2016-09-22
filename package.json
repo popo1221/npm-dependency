@@ -6,8 +6,21 @@
   "bin": {
     "npm-dependency": "bin/npm-dependency.js"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/popo1221/npm-dependency.git"
+  },
+  "keywords": [
+    "npm-dependency",
+    "npm-dependency copy",
+    "npm-dependency list"
+  ],
+  "author": "gabel peng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/popo1221/npm-dependency/issues"
+  },
+  "homepage": "https://github.com/popo1221/npm-dependency#readme",
   "dependencies": {
     "commander": "^2.9.0",
     "cpr": "^2.0.0",
